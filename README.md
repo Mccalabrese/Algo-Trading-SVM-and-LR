@@ -1,13 +1,13 @@
 # Module-14-Challenge
 
-###**Baseline Model:**
+### **Baseline Model:**
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/c4fd9284-039a-452f-8c4f-d1d5851bc89e)
 
 In my baseline model, the model preformed better than the actual price movement. The actual price movement returned about 40% over the time period, while the trading algorithm returned approximatly 50%.
 
 
-###**Adjusted training dataset size:**
+### **Adjusted training dataset size:**
 
 **One Month-**
 
@@ -19,25 +19,25 @@ In my baseline model, the model preformed better than the actual price movement.
 
 The impact of changing the size of the training dataset was that the decrease to one-month slightly reduced preformance, lowering the return to about 40%, whereas increasing it to six months increased the preformance significantly, with the algorithm returning about 80% over the time period.
 
-###**Adjusting SMA:**
+### **Adjusting SMA:**
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/f523eb6d-9a29-4684-9017-47d10202fe8c)
 
 I increased both SMA time frames, with my short window being increased to a 30 day SMA, and my long window increased to a 200 day SMA. This increased my algo's return to about 60%
 
-###**Best Return:**
+### **Best Return:**
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/2acf0749-1fd3-4aee-8f54-a91cc6c772d1)
 
 Based on the data above, for best returns I used the increased SMA time frames and a six month training dataset size. This cumulated in a 100% return over the time period.
 
-###**Logistic Regression:**
+### **Logistic Regression:**
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/6c421359-696d-4c69-94f6-99c5a5257b03)
 
 The logistic regression returned worse than anything else, returning about 15% over the time period.
 
-##**Summary Evaluation:**
+## **Summary Evaluation:**
 
 The Logistic Regression model preformed worse in every iteration than baseline with the exception of the 6-month iteration, however even in this it underpreformed the tuned non-logistic regression model.
 

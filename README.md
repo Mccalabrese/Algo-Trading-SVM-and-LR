@@ -41,23 +41,23 @@ The logistic regression returned worse than anything else, returning about 15% o
 
 The Logistic Regression model preformed worse in every iteration than baseline with the exception of the 6-month iteration, however even in this it underpreformed the tuned non-logistic regression model.
 
-**Logistic Regression with Increased SMA Windows and Increased Training Dataset:**
+*Logistic Regression with Increased SMA Windows and Increased Training Dataset:*
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/19e88270-5628-44ff-a524-bfff8db06151)
 
-**Logistic Regression with Decreased Training Dataset:**
+*Logistic Regression with Decreased Training Dataset:*
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/8213ccc6-a92e-4876-ad5a-81a9d9d0c067)
 
-**Logistic Regression with Increased SMA Windows:**
+*Logistic Regression with Increased SMA Windows:*
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/2d8f96d3-2cb2-4693-91d2-b28a98151bc9)
 
-**Logistic Regression with Increased Training Dataset:**
+*Logistic Regression with Increased Training Dataset:*
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/05e859ba-1ac8-4534-82c0-f39876810894)
 
 
-*I would recomend the tuned model for paper trading and further development. Increasing the training dataset size increased preformance, and so did increasing the SMA windows.*
+**I would recomend the tuned model for paper trading and further development. Increasing the training dataset size increased preformance, and so did increasing the SMA windows.**
 
 ![image](https://github.com/Mccalabrese/Module-14-Challenge/assets/138624063/196436d4-0592-40ed-8f4e-a1e5243de254)
